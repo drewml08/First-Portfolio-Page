@@ -11,6 +11,7 @@ header {
     padding: 10px;
     background-color: darkgreen;
     color: antiquewhite;
+    font-size: x-large;
 }
 
 h1 {
@@ -61,8 +62,21 @@ main {
     background-color: antiquewhite;
     color: black;
 }
+/*          */
+section {
+    display: grid;
+    grid-template-columns: 15% 85%;
+}
 
 aside {
     padding: 10px;
+    font-size: xx-large;
+    background-color: dimgray;
+    min-height: 350px;
+    text-align: right;
+}
 
+content {
+    padding: 40px;
+    font-size: x-large;
 }
