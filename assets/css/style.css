@@ -1,0 +1,68 @@
+body {
+    display: flex;
+    flex-direction: column;
+    line-height: 20px;
+}
+
+header {
+    display: inline-block;
+    justify-content: right;
+    text-align: center;
+    padding: 10px;
+    background-color: darkgreen;
+    color: antiquewhite;
+}
+
+h1 {
+    font-size: 200%;
+    text-align: center;
+    line-height: 20px;
+    height: 20px;
+    margin-top: 40px;
+}
+
+nav {
+    display: block;
+    justify-content: right;
+    min-width: 10px;
+    text-align: right;
+}
+
+ul {
+    display: block;
+    text-align: right;
+    text-decoration: underline;
+}
+
+a {
+    color:navy;
+}
+
+a:hover {
+    color:white;
+}
+
+li {
+    float: right;
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+.spacer {
+    background-image: url("../images/Green Pattern.png");
+    height: 100px;
+    background-repeat: repeat-x;
+    background-color: darkgreen;
+}
+
+main {
+    display: contents;
+    padding: 10px;
+    background-color: antiquewhite;
+    color: black;
+}
+
+aside {
+    padding: 10px;
+
+}
