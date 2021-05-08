@@ -1,7 +1,9 @@
 body {
     display: flex;
     flex-direction: column;
-    line-height: 20px;
+    line-height: 25px;
+    max-width: 100%;
+    max-height: fit-content;
 }
 
 header {
@@ -66,6 +68,9 @@ main {
 section {
     display: grid;
     grid-template-columns: 15% 85%;
+    grid-template-rows: max-content;
+    position: relative;
+    top: 0;
 }
 
 aside {
@@ -77,6 +82,41 @@ aside {
 }
 
 content {
-    padding: 40px;
+    padding: 20px;
     font-size: x-large;
+    display: inline;
+    margin-top: 20px;
+}
+
+content img {
+    max-width: 20%;
+    height: 400px;
+}
+
+content p {
+    padding-left: 20px;
+    padding-top: 0px;
+}
+
+#contactme {
+    min-height: 100px;
+}
+
+.projectimages img:first-child {
+    max-width: 70%;
+}
+
+.contactinfo {
+    background-color: lightblue;
+    font-size: x-large;
+    text-align: center;
+}
+
+.contactinfo a {
+    display: inline-block;
+    padding-top: 25px;
+    padding-right: 75px;
+    padding-left: 75px;
+    font-size: xx-large;
+
 }
