@@ -31,7 +31,7 @@ nav {
     text-align: right;
 }
 
-ul {
+nav ul {
     display: block;
     text-align: right;
     text-decoration: underline;
@@ -45,7 +45,7 @@ a:hover {
     color:white;
 }
 
-li {
+nav ul li {
     float: right;
     list-style-type: none;
     padding-left: 20px;
@@ -94,8 +94,9 @@ content img {
 }
 
 content p {
-    padding-left: 20px;
-    padding-top: 0px;
+    padding-left: 350px;
+    padding-right: 100px;
+    line-height: 50px;
 }
 
 #contactme {
@@ -120,3 +121,19 @@ content p {
     font-size: xx-large;
 
 }
+
+content li {
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+
+.resumesection {
+    padding-left: 50px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+h3 {
+    margin-top: 15px;
+}
+
